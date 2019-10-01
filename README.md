@@ -4,9 +4,10 @@ Create Docker Image:
 ### `docker build -t judascrow/simpleweb .`
 Run Docker Image:
 ### `docker run -p 8080:8080 judascrow/simpleweb`
+List Container is Running:
+### `docker ps -a`
 ssh to container:
 ### `docker exec -it <container_id> sh`
-
 Stop Container:
 ### `docker stop <container_id>`
 Remove Container:
